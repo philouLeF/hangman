@@ -1,3 +1,29 @@
+body {
+    background-color: #253237;
+    color: #E0FBFC;
+}
+
+h1 {
+    margin: auto;
+}
+
+#play {
+    border: 1px solid #E0FBFC;
+    border-radius: 0.1em;
+    margin: 1%;
+}
+
 .clavier {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1;
+    button {
+        color: #E0FBFC;
+        background-color: #253237;
+        border: 1px solid #E0FBFC;
+        border-radius: 0.2em 0.5em 0.2em 0.5em;
+        width: 25px;
+        height: 22px;
+    }
 }
