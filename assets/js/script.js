@@ -11,7 +11,7 @@ function init() {
 
 function guess(element) {
     for (let i = 0; i < randomWord.lenght; i++) {
-        if (i == element) {
+        if (randomWord[i] == element) {
 
         } else {
             lives -= 1;
